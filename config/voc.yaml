@@ -1,0 +1,39 @@
+dataset_params:
+  num_classes: 8
+  im_size: 300
+
+data_params:
+  train_annotation_dir: 'data/train/annotations'
+  train_cam_dir: 'data/train/camera_image'
+  train_radar_dir: 'data/train/radar_image'
+  val_annotation_dir: 'data/val/annotations'
+  val_cam_dir: 'data/val/camera_image'
+  val_radar_dir: 'data/val/radar_image'
+
+model_params:
+  aspect_ratios:
+    - [2, 3]
+    - [2, 3]
+    - [2, 3]
+    - [2, 3]
+    - [2]
+    - [2]
+  scales: [0.1, 0.2, 0.375, 0.55, 0.725, 0.9]
+  iou_threshold: 0.5
+  nms_threshold: 0.45
+  low_score_threshold: 0.01
+  neg_pos_ratio: 3
+  pre_nms_topK: 400
+  detections_per_img: 200
+
+train_params:
+  task_name: 'checkpoints'
+  ckpt_name: 'ssd_bam_fusion.pth'
+  seed: 999
+  num_epochs: 100
+  batch_size: 8
+  lr: 0.0026
+  lr_steps: [40, 50, 60, 70, 80, 90]
+  log_steps: 50
+  acc_steps: 1
+  num_workers: 4
