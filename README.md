@@ -14,10 +14,6 @@ Real-time camera-radar fusion model for autonomous vehicle perception using SSD 
 | **Camera-Radar SSD-BAM** | **ResNet-18** | **46.x** | **28ms (35 FPS)** | **Onlogic Karbon 804** |
 
 Evaluated on the NuScenes-derived dataset with 7 object classes.
-<<<<<<< HEAD
-=======
-
->>>>>>> d14882cd2a537632d412edba98ff3a9d71237f84
 ## Architecture
 
 ```
