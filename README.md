@@ -76,8 +76,16 @@ See `docs/` for deployment details.
 
 ## Citation
 
-If you use this work, please cite our IEEE ITSC 2024 paper.
-T. Mengistu, T. Getahun and A. Karimoddini, "A Robust Radar-Camera Fusion for 2D Object Detection for Autonomous Driving," 2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC), Gold Coast, Australia, 2025, pp. 2842-2847, doi: 10.1109/ITSC60802.2025.11423247. keywords: {Radar cross-sections;Attention mechanisms;Accuracy;Radar detection;Object detection;Radar imaging;Sensor fusion;Feature extraction;Cameras;Autonomous vehicles;Sensor fusion;feature-level fusion;object detection;autonomous driving},
+Citation
+If you use this work, please cite our IEEE ITSC 2024 paper:
+
+T. Mengistu, T. Getahun, and A. Karimoddini,
+"A Robust Radar-Camera Fusion for 2D Object Detection for Autonomous Driving,"
+2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC),
+Gold Coast, Australia, 2025, pp. 2842–2847.
+DOI: 10.1109/ITSC60802.2025.11423247
+
+Keywords: Radar cross-sections, Attention mechanisms, Accuracy, Radar detection, Object detection, Radar imaging, Sensor fusion, Feature extraction, Cameras, Autonomous vehicles, Feature-level fusion, Autonomous driving.
 
 
 
