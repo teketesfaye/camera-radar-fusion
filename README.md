@@ -76,7 +76,6 @@ See `docs/` for deployment details.
 
 ## Citation
 
-Citation
 If you use this work, please cite our IEEE ITSC 2024 paper:
 
 T. Mengistu, T. Getahun, and A. Karimoddini,
