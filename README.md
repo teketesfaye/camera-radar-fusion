@@ -7,7 +7,7 @@ Real-time camera-radar fusion model for autonomous vehicle perception using SSD 
 
 ![System Overview](img/Qualitative_Result.png)
 
-# A. Quantitative result and comparison with other state-of-the-art models 
+# B. Quantitative result and comparison with other state-of-the-art models 
 | Model | Backbone | wmAP | Inference | Device |
 |-------|----------|------|-----------|--------|
 | Camera-only SSD | ResNet-18 | **43.x** | **23ms (43 FPS)** | **Onlogic Karbon 804** |
